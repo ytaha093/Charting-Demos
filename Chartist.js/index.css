@@ -1,0 +1,34 @@
+body {
+    height: 300vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+#chart1 {
+    margin: auto;
+    grid-row: 1/4;
+    grid-column: 1/5;
+}
+
+#chart2 {
+    margin: auto;
+    grid-row: 1/4;
+    grid-column: 5/9;
+}
+
+#chart3 {
+    margin: auto;
+    grid-row: 4/6;
+    grid-column: 1/5;
+}
+
+#chart4 {
+    margin: auto;
+    grid-row: 4/7;
+    grid-column: 5/9;
+}
+
+.ct-labels {
+    font-weight: bold;
+}

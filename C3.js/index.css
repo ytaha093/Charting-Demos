@@ -1,0 +1,42 @@
+body {
+    height: 300vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+#chart1 {
+
+    grid-row: 1/4;
+    grid-column: 1/5;
+}
+
+#chart2 {
+
+    grid-row: 1/4;
+    grid-column: 5/9;
+}
+
+#chart3 {
+
+    grid-row: 4/7;
+    grid-column: 1/5;
+}
+
+#chart4 {
+
+    grid-row: 4/7;
+    grid-column: 5/9;
+}
+
+#chart5 {
+
+    grid-row: 7/10;
+    grid-column: 1/5;
+}
+
+#chart6 {
+
+    grid-row: 7/10;
+    grid-column: 5/9;
+}
